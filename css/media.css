@@ -56,6 +56,13 @@
     margin: 0 auto;
     max-height: 40px;
   }
+  .ingridient-container .ingridient__image {
+    width: 80%;
+  }
+  .ingridient-container .ingridient__inf {
+    margin-left: 1px;
+    width: 92%;
+  }
   .listExplain {
     padding: 40px;
   }
@@ -129,6 +136,7 @@
   }
   .works .works__stepFour-wrapper {
     margin-left: 1px;
+    height: auto;
   }
   .works .works__stepFour-items {
     margin-left: 1px;
@@ -217,8 +225,18 @@
 }
 
 @media screen and (max-width: 500px) {
+  .header {
+    height: auto;
+  }
+  .header .header__desr {
+    width: 80%;
+  }
+  .main {
+    width: 86%;
+    margin: 0 auto;
+  }
   .ingridient-container .ingridient__inf_img {
-    max-height: 20px;
+    max-height: 35px;
   }
   .listExplain i {
     display: none;
