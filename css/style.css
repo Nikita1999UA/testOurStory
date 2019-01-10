@@ -303,39 +303,38 @@
   z-index: -1;
 }
 
-.listExplain {
+.list-explain {
   padding-top: 80px;
   max-width: 870px;
   margin: 0 auto;
 }
 
-.listExplain .listExplain__title {
+.list-explain .list-explain__title {
   color: #2d1b45;
   font-family: "Rubik";
   font-weight: 400;
-  font-size: 30px;
   text-align: center;
   position: relative;
 }
 
-.listExplain i {
+.list-explain i {
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.listExplain .listExplain__item {
+.list-explain .list-explain__item {
   margin-top: 15px;
 }
 
-.listExplain .listExplain__item_title {
+.list-explain .list-explain__item_title {
   color: #363636;
   font-family: "Rubik";
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.listExplain .listExplain__item_text {
+.list-explain .list-explain__item_text {
   color: #363636;
   font-family: "Rubik";
   font-weight: 300;
